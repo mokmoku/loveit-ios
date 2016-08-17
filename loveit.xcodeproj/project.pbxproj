@@ -251,10 +251,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takumi Kashima (DEM3ZKARBK)";
 				INFOPLIST_FILE = loveit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c25a2de1-6dd7-4572-bdd9-febb49b55d8b";
 			};
 			name = Debug;
 		};
@@ -262,10 +264,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takumi Kashima (DEM3ZKARBK)";
 				INFOPLIST_FILE = loveit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c25a2de1-6dd7-4572-bdd9-febb49b55d8b";
 			};
 			name = Release;
 		};
@@ -288,6 +292,7 @@
 				ECD336AE1D647F96004F2C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
